@@ -2,34 +2,40 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
     <title>TreeHouse</title>
 </head>
 <body>
     <script src="app.js"></script>
-    <div class="nav">
-        <div class="logo">
-            <a href="index.html">TreeHouse Living</a>
+        <header>
+            <a href="index.html">
+                <img class="logo" src="images/logo.svg" alt="logo">
+            </a>            
+            <div class="nav-wrapper">
+                <nav>
+                    <ul class="nav-links">
+                        <li><a href="location.html">Location</a></li>
+                        <li><a href="amenities.html">Amenities</a></li>
+                        <li><a href="gallery.html">Gallery</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <a class="cta" href="https://www.airbnb.com/rooms/48921548?guests=1&adults=1&s=67&unique_share_id=e74681d9-84d9-4e11-b6e6-1f4f22038c0f">
+                <button>Book Now</button>
+            </a>
+        </header>
+        <div class="hero">
+            <img class="image-hero" src="images/treehouse-hero.jpg" alt="treehouse" draggable="false">
+            <h1 class="hero-text">The Charleston Treehouse</h1>
         </div>
-        <div class="navbar">
-            <ul>
-                <li><a href="https://www.airbnb.com/rooms/48921548?guests=1&adults=1&s=67&unique_share_id=e74681d9-84d9-4e11-b6e6-1f4f22038c0f">Book a rental</a></li>
-                <li><a href="location.html">Location</a></li>
-                <li><a href="amenities.html">Amenities</a></li>
-                <li><a href="gallery.html">Gallery</a></li>
-            </ul>
+        <div class="testimonials">
+            <h2>Testimonials</h2>
+            <h2 class="testimonials-name">Brooke</h2>
+            <p class="testimonials-text">The tree house is just as described. The layout and design of the place was beautiful. Karen was the definition of a perfect host!</p>
+            <sub>Date: 9/9/2024</sub>
         </div>
-    </div>
-    <div class="hero">
-        <img class ="image-hero" src="images/treehouse-hero.jpg" alt="treehouse" class="image-hero" draggable="false">
-        <h1 class="hero-text">The Charleston Treehouse</h1>
-    </div>
-    <div class="testimonials">
-        <h2>Testimonials</h2>
-        <h2 class="testimonials-name">Brooke</h2>
-        <p class="testimonials-text">The tree house is just as described. The layout and design of the place was beautiful. Karen was the definition of a perfect host!</p>
-        <sub>Date: 9/9/2024</sub>
-    </div>
 </body>
 </html>
