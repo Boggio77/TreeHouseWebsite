@@ -3,18 +3,37 @@ body{
     width: 100vw;
     background-color: #B5CBBB;
     margin: 0rem;
-    overflow: hidden;
     text-decoration: none;
 }
 
-.container {
-    width: 80%;              /* Set the width to 80% of the viewport */
-    margin: 0 auto;          /* Center the container horizontally */
-    max-width: 1800px;       /* Optional: Set a max-width to prevent it from getting too wide on larger screens */
-    box-sizing: border-box;  /* Ensure padding and border are included in the width calculation */
-    padding: 0 20px;         /* Optional: Add some padding inside the container */
+.hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    position: relative;
+}  
+
+.image-hero {
+    display: block;
+    top: 0%;
+    left: 50%;
+    max-width: 1000px;
+    width: 100%;
+    height: auto; 
+    border-radius: 100px;
+    margin-top: 0rem;
+    padding-top: 0rem;
   }
-  
+
+.hero-text {
+    position: absolute;
+    color: #ffffff;
+    font-size: 50px;
+    font-family: Calibri;
+    text-wrap: nowrap;
+}
 
 .nav {
     display: flex;
@@ -69,4 +88,17 @@ li a{
     height: 56vmin;
     object-fit: cover;
     object-position: center;
+}
+
+img {
+    width: 100%;
+    margin-top: 1rem;
+    max-width: 300px;
+    object-fit: cover;
+}
+
+.images {
+    columns: 300px;
+    padding-left: 30px;
+    padding-right: 10px;
 }

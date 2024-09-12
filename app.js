@@ -36,7 +36,7 @@ document.addEventListener("DOMContentLoaded", () => {
     // Faster movement for the images inside the track
     for (const image of track.getElementsByClassName("image")) {
       const imageSpeedFactor = 2; // Change this value to adjust how much faster the images move compared to the track
-      const imagePosition = 100 + nextTrackPercentage * imageSpeedFactor;
+      const imagePosition = 50 + nextTrackPercentage * imageSpeedFactor;
       image.style.objectPosition = `${imagePosition}% center`;
     }
   };
