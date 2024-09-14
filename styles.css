@@ -2,7 +2,6 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-
 }
 
 *::-webkit-scrollbar {
@@ -87,7 +86,9 @@ header {
 
 .nav-links li {
     display: inline-block;
+    margin: 20px;
     padding: 0px 20px;
+    border-radius: 10px;
 }
 
 .nav-links li a {
@@ -95,7 +96,9 @@ header {
 }
 
 .nav-links li a:hover {
-    color: #828e7f;
+    /* color: #828e7f; */
+    box-shadow: 2px 2px 2px rgb(0, 0, 0, 0.1) inset, -1px -1px 1px white inset;
+
 }
 
 button {
@@ -166,7 +169,8 @@ h2 {
 .item {
     position: absolute;
     width: 300px;
-    height: 520px;
+    height: fit-content;
+    min-height: 400px;
     text-align: justify;
     background-color: #fff;
     border-radius: 10px;
@@ -174,6 +178,7 @@ h2 {
     transition: 0.5s;
     left: calc(50% - 150px);
     top: 0;
+    align-content: center;
 }
 
 #next, #prev {
