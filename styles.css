@@ -70,6 +70,10 @@ header {
 
 .logo {
     cursor: pointer;
+    margin-right: auto;
+    width: 100px;
+    height: auto;
+    margin-left: 20px;
 }
 
 .nav-wrapper {
@@ -86,8 +90,7 @@ header {
 
 .nav-links li {
     display: inline-block;
-    margin: 20px;
-    padding: 0px 20px;
+    padding: 10px 20px;
     border-radius: 10px;
 }
 
@@ -96,9 +99,9 @@ header {
 }
 
 .nav-links li a:hover {
-    /* color: #828e7f; */
-    box-shadow: 2px 2px 2px rgb(0, 0, 0, 0.1) inset, -1px -1px 1px white inset;
-
+    color: #828e7f;
+    /* box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.1) inset,
+    -4px -4px 4px white inset; */
 }
 
 button {
@@ -127,6 +130,35 @@ img {
     padding-right: 10px;
 }
 
+.rating {
+    justify-content: center;
+}
+
+.stars {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.star {
+    width: 100px;
+    height: 200px;
+    margin-right: 5px;
+}
+
+.starcontent {
+    display: relative;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5px;
+    margin-bottom: 40px;
+}
+
+.starcontent p {
+    text-align: center;
+    margin-top: 10px;
+}
+
 .testimonials {
     display: flex;
     justify-content: center;
@@ -137,15 +169,22 @@ img {
 h1 {
     margin-top: 10px;
     margin-bottom: 30px;
-    font-size: 50px;
+    font-size: 80px;
     color: #000000;
     text-align: center;
 }
 
 h2 {
     margin-top: 10px;
-    margin-bottom: 30px;
-    font-size: 30px;
+    margin-bottom: 20px;
+    font-size: 40px;
+    color: #000000;
+    text-align: center;
+}
+
+h3 {
+    margin-top: 10px;
+    font-size: 20px;
     color: #000000;
     text-align: center;
 }
