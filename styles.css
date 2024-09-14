@@ -111,22 +111,6 @@ button:hover {
     background-color: rgba(130, 132, 127, 0.8);
 }
 
-#image-track {
-    display: flex;
-    gap: 4vmin;
-    position: absolute;
-    left: 10%;
-    top: 12%;
-    user-select: none;
-}
-
-#image-track > .image {
-    width: 60vmin;
-    height: 56vmin;
-    object-fit: cover;
-    object-position: center;
-}
-
 img {
     width: 100%;
     margin-top: 1rem;
@@ -136,7 +120,7 @@ img {
 
 .images {
     columns: 300px;
-    padding-left: 30px;
+    padding-left: 10px;
     padding-right: 10px;
 }
 
