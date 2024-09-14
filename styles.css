@@ -2,6 +2,11 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+
+}
+
+*::-webkit-scrollbar {
+    display: none;
 }
 
 body {
@@ -43,7 +48,7 @@ body {
     text-wrap: nowrap;
     align-items: center;
     justify-content: center;
-    top: 50%;
+    top: 65%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
@@ -58,12 +63,10 @@ li, a, button {
 
 header {
     background-color: #939f99;
-    box-sizing: border-box;
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 30px 10%;
-    position: relative;
 }
 
 .logo {
@@ -71,9 +74,9 @@ header {
 }
 
 .nav-wrapper {
-    position: absolute;
+    flex: 1;
     left: 50%;
-    transform: translateX(-50%);
+    justify-content: center;
 }
 
 .nav-links {
@@ -185,7 +188,7 @@ h2 {
     border-radius: 10px;
     padding: 20px;
     transition: 0.5s;
-    left: calc(50% - 110px);
+    left: calc(50% - 150px);
     top: 0;
 }
 
